@@ -392,7 +392,27 @@ L'installateur repère aussi les **lignes perso de ton ancien `.zshrc`** (alias,
 
 ---
 
+## Base de la configuration
+
+Le squelette du `kitty.conf` (structure en sections, traînée du curseur, accent rose `#e01247`) et la **palette de couleurs** viennent de la configuration kitty de [Helphy](https://github.com/Helphyy). Katty part de cette base et la complète.
+
+| Réglage | Config de base de [Helphy](https://github.com/Helphyy) | Katty |
+|---|---|---|
+| Palette `color1` à `color15`, curseur, sélection, texte | Reprise telle quelle | Identique, sauf `color0` |
+| Fond | `#1b1f27` | `#000000` (noir pur) |
+| `color0` | `#1b1f27` | `#1a1a1a` |
+| Bordure inactive | `#2a2f3a` | `#2a2a2a` |
+| Opacité du fond | `0.80` | `0.78` |
+| Police | `JetBrainsMono Nerd Font` | `JetBrainsMono Nerd Font Mono` (icônes sur 1 cellule) |
+| Marges | `4` / `4` | `8 12` avec un seul panneau, `4 6` en split |
+| Seuil de la traînée du curseur | `0` | `2` |
+| Confirmation à la fermeture | `0` | `-1` (seulement si une commande tourne) |
+| Panneaux, onglets, raccourcis, recherche, surlignage | Absents | Ajoutés (`katty.py`, `alt+1…9`, `ctrl+shift+f`, `ctrl+shift+m`…) |
+| Zsh, prompt Powerlevel10k, alias, installateur | Absents | Ajoutés |
+
 ## Crédits
+
+Squelette et palette de la config kitty : [Helphy](https://github.com/Helphyy).
 
 Construit sur [kitty](https://sw.kovidgoyal.net/kitty/), [zsh](https://www.zsh.org/), [Powerlevel10k](https://github.com/romkatv/powerlevel10k), [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions), [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting), [zsh-completions](https://github.com/zsh-users/zsh-completions), [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search), [fzf-tab](https://github.com/Aloxaf/fzf-tab), [fzf](https://github.com/junegunn/fzf), [fzf-git.sh](https://github.com/junegunn/fzf-git.sh), [eza](https://github.com/eza-community/eza), [bat](https://github.com/sharkdp/bat), [ripgrep](https://github.com/BurntSushi/ripgrep), [fd](https://github.com/sharkdp/fd), [zoxide](https://github.com/ajeetdsouza/zoxide), [delta](https://github.com/dandavison/delta) et [Nerd Fonts](https://www.nerdfonts.com/) (JetBrainsMono).
 
