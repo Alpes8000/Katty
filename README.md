@@ -33,8 +33,8 @@ Un seul script : `install.sh` (v3). Il installe les paquets, les plugins, la pol
 ## Installation
 
 ```bash
-git clone https://github.com/<ton-user>/<ton-repo>.git
-cd <ton-repo>
+git clone https://github.com/Alpes8000/Katty.git
+cd Katty
 chmod +x install.sh
 ./install.sh
 ```
